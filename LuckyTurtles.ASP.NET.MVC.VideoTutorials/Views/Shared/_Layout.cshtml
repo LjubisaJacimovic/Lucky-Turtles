@@ -1,0 +1,111 @@
+﻿@using LuckyTurtles.ASP.NET.MVC.VideoTutorials.Models;
+
+@{
+    var user = (User)Session["User"];
+    if (user != null)
+    {
+        if (user.isAdmin == true)
+        {
+            ViewBag.CheckAdmin = "Admin";
+        }
+        else
+        {
+            ViewBag.CheckAdmin = "User";
+        }
+      
+    }
+}
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>@ViewBag.Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/custom/ValidateDataAnnotations.css" rel="stylesheet" />
+    <link href="~/custom/style.css" rel="stylesheet">
+    <link href="~/ManageUsersStyle/Manage.css" rel="stylesheet" />
+    <link href="~/custom/videoStyle.css" rel="stylesheet" />
+    @RenderSection("CssScripts", required: false)
+
+</head>
+<body>
+    <nav class="navbar navbar-default navbar-static-top">
+        <div class="container">
+            <div class="navbar-header ">
+                <a class="navbar-brand" href="~/Home/Index">SEDC</a>
+            </div>
+            <div class="navbar-header navbar-right">
+                @if (ViewBag.CheckAdmin != null)
+                {
+                    if (ViewBag.CheckAdmin == "Admin")
+                    {
+                        <ul class="nav navbar-nav">
+                            <li><a href="~/AdminVideo/ManageVideos">Manage Videos</a></li>
+                        </ul>
+                        <ul class="nav navbar-nav">
+                            <li><a href="~/AdminUser/ManageUsers">Manage Users</a></li>
+                        </ul>
+                    }
+
+                    <ul class="nav navbar-nav">
+                        <li class ="dropdown">
+                            <a href="#" class="dropdown-toggle" aria-expanded="false">@user.Username</a>
+                            <ul class="dropdown-menu dropdownAccount" role="menu">
+                                <li><a href="~/Video/AddVideo">Add Video</a></li>
+                                <li><a href="~/Profile/MyProfile">My Profile</a></li>
+                                <li><a href="~/ProfileSettings/Settings">Profile Settings</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul class="nav navbar-nav">
+                        <li><a href="~/Account/SignOut">Sign Out</a></li>
+                    </ul>
+
+                }
+                else
+                {
+                    <ul class="nav navbar-nav">
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" aria-expanded="false">Sign In</a>
+                            <ul class="dropdown-menu dropdownSignIn" role="menu">
+                                @using (Html.BeginForm("signIn", "Account", FormMethod.Post))
+                                {
+                                    @Html.AntiForgeryToken()
+                                    @Html.ValidationSummary(true)
+                                    <div class="form-group">
+                                        @Html.Label("Username")
+                                        @Html.TextBox("Username")
+                                    </div>
+                                    <div class="form-group">
+                                        @Html.Label("Password")
+                                        @Html.Password("Password")
+                                    </div>
+                                    if (ViewBag.ErrorMessage != null)
+                                    {
+                                        <div class="form-group" style="color:red">
+                                            @ViewBag.ErrorMessage
+                                        </div>
+                                    }
+                                    <button type="submit" class="btn btn-default btn-info">Sign In</button>
+                                }
+                            </ul>
+                        </li><!--End of dropdown menu-->
+                    </ul><!--End of dropdown for Sign In-->
+                    <ul class="nav navbar-nav">
+                        <li class="dropdown">
+                            <a href="~/Account/SignUp" role="button" aria-expanded="false">Sign Up</a>
+                        </li>
+                    </ul>
+                }
+
+            </div><!--End of right navbar-->
+        </div><!--End of navbar container-->
+    </nav><!-- End of main navbar div -->
+    @RenderBody()
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="~/Scripts/bootstrap.min.js"></script>
+    <script src="~/custom/script.js"></script>
+    @RenderSection("Scripts", required:false)
+</body>
+</html>

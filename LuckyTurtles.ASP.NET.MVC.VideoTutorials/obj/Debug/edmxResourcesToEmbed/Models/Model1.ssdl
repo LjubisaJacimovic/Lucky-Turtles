@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="LuckyTurtlesVideoTutsModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2012" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="LuckyTurtlesVideoTutsModelStoreContainer">
+    <EntitySet Name="History" EntityType="LuckyTurtlesVideoTutsModel.Store.History" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="RejectMessage" EntityType="LuckyTurtlesVideoTutsModel.Store.RejectMessage" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="sysdiagrams" EntityType="LuckyTurtlesVideoTutsModel.Store.sysdiagrams" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Tags" EntityType="LuckyTurtlesVideoTutsModel.Store.Tags" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Users" EntityType="LuckyTurtlesVideoTutsModel.Store.Users" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Videos" EntityType="LuckyTurtlesVideoTutsModel.Store.Videos" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="VideoTags" EntityType="LuckyTurtlesVideoTutsModel.Store.VideoTags" store:Type="Tables" Schema="dbo" />
+    <AssociationSet Name="FK_History_Users" Association="LuckyTurtlesVideoTutsModel.Store.FK_History_Users">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="History" EntitySet="History" />
+    </AssociationSet>
+    <AssociationSet Name="FK_History_Videos" Association="LuckyTurtlesVideoTutsModel.Store.FK_History_Videos">
+      <End Role="Videos" EntitySet="Videos" />
+      <End Role="History" EntitySet="History" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Videos_RejectMessage" Association="LuckyTurtlesVideoTutsModel.Store.FK_Videos_RejectMessage">
+      <End Role="RejectMessage" EntitySet="RejectMessage" />
+      <End Role="Videos" EntitySet="Videos" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Videos_Users" Association="LuckyTurtlesVideoTutsModel.Store.FK_Videos_Users">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="Videos" EntitySet="Videos" />
+    </AssociationSet>
+    <AssociationSet Name="FK_VideoTags_Tags" Association="LuckyTurtlesVideoTutsModel.Store.FK_VideoTags_Tags">
+      <End Role="Tags" EntitySet="Tags" />
+      <End Role="VideoTags" EntitySet="VideoTags" />
+    </AssociationSet>
+    <AssociationSet Name="FK_VideoTags_Videos" Association="LuckyTurtlesVideoTutsModel.Store.FK_VideoTags_Videos">
+      <End Role="Videos" EntitySet="Videos" />
+      <End Role="VideoTags" EntitySet="VideoTags" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="History">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="userId" Type="int" Nullable="false" />
+    <Property Name="videoId" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="RejectMessage">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Message" Type="nvarchar(max)" Nullable="true" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" Nullable="false" MaxLength="128" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="version" Type="int" Nullable="true" />
+    <Property Name="definition" Type="varbinary(max)" Nullable="true" />
+  </EntityType>
+  <EntityType Name="Tags">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="TagName" Type="nvarchar" Nullable="false" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Users">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="FirstName" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="LastName" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="Email" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="Username" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="Password" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="isAdmin" Type="bit" Nullable="false" />
+    <Property Name="Approved" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Videos">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Title" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Description" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="SourceLink" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="DatePublished" Type="datetime" Nullable="false" />
+    <Property Name="Duration" Type="int" Nullable="true" />
+    <Property Name="UserId" Type="int" Nullable="false" />
+    <Property Name="isApproved" Type="bit" Nullable="false" />
+    <Property Name="Rejected" Type="int" Nullable="true" />
+  </EntityType>
+  <EntityType Name="VideoTags">
+    <Key>
+      <PropertyRef Name="Tags_Id" />
+      <PropertyRef Name="Videos_Id" />
+    </Key>
+    <Property Name="Tags_Id" Type="int" Nullable="false" />
+    <Property Name="Videos_Id" Type="int" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_History_Users">
+    <End Role="Users" Type="LuckyTurtlesVideoTutsModel.Store.Users" Multiplicity="1" />
+    <End Role="History" Type="LuckyTurtlesVideoTutsModel.Store.History" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="History">
+        <PropertyRef Name="userId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_History_Videos">
+    <End Role="Videos" Type="LuckyTurtlesVideoTutsModel.Store.Videos" Multiplicity="1" />
+    <End Role="History" Type="LuckyTurtlesVideoTutsModel.Store.History" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Videos">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="History">
+        <PropertyRef Name="videoId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Videos_RejectMessage">
+    <End Role="RejectMessage" Type="LuckyTurtlesVideoTutsModel.Store.RejectMessage" Multiplicity="0..1" />
+    <End Role="Videos" Type="LuckyTurtlesVideoTutsModel.Store.Videos" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="RejectMessage">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Videos">
+        <PropertyRef Name="Rejected" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Videos_Users">
+    <End Role="Users" Type="LuckyTurtlesVideoTutsModel.Store.Users" Multiplicity="1" />
+    <End Role="Videos" Type="LuckyTurtlesVideoTutsModel.Store.Videos" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Videos">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_VideoTags_Tags">
+    <End Role="Tags" Type="LuckyTurtlesVideoTutsModel.Store.Tags" Multiplicity="1" />
+    <End Role="VideoTags" Type="LuckyTurtlesVideoTutsModel.Store.VideoTags" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Tags">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="VideoTags">
+        <PropertyRef Name="Tags_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_VideoTags_Videos">
+    <End Role="VideoTags" Type="LuckyTurtlesVideoTutsModel.Store.VideoTags" Multiplicity="*" />
+    <End Role="Videos" Type="LuckyTurtlesVideoTutsModel.Store.Videos" Multiplicity="1" />
+    <ReferentialConstraint>
+      <Principal Role="Videos">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="VideoTags">
+        <PropertyRef Name="Videos_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

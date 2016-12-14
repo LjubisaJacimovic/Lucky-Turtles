@@ -1,0 +1,95 @@
+﻿@model LuckyTurtles.ASP.NET.MVC.VideoTutorials.Models.ViewModels.ProfileSettings
+
+@{
+    ViewBag.Title = "Settings";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@section CssScripts{
+    <link href="~/custom/ProfileSettings.css" rel="stylesheet" />
+}
+<div class="container row">
+    <h4>Profile Settings</h4>
+    @if (ViewBag.Message != null)
+    {
+        <h4 style="color:@ViewBag.MsgColor">@ViewBag.Message</h4>
+    }
+    <hr />
+    <div class="col-md-4">
+        <dl class="dl-horizontal">
+            <dt>
+                @Html.DisplayNameFor(model => model.FirstName)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.FirstName)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.LastName)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.LastName)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.Email)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Email)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.Username)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Username)
+            </dd>
+        </dl>
+    </div>
+    <div class="col-md-2">
+        <div class="btn btn-info togglePassForm" style="display:block; width:100%">Change Password</div>
+        <br />
+        <div class="btn btn-info toggleEmailForm" style="display: block; width: 100%">Change E-Mail</div>
+    </div>
+    <div class="col-md-3 passForm">
+        @using (Html.BeginForm("ChangePassword", "ProfileSettings", FormMethod.Post))
+        {
+            <h4>Change Password</h4>
+            <div class="form-group">
+                @Html.Password("oldPassword", "", new { placeholder = "Current Password", required = "required"})
+            </div>
+            <div class="form-group">
+                @Html.Password("newPassword", "", new { placeholder = "New Password", required = "required" })
+            </div>
+            <div class="form-group">
+                @Html.Password("confirmPassword", "", new { placeholder = "Confirm Password", required = "required" })
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Change Password" class="btn btn-info" />
+            </div>
+        }
+    </div>
+    <div class="col-md-3 emailForm">
+        @using (Html.BeginForm("ChangeEmail", "ProfileSettings", FormMethod.Post))
+        {
+            <h4>Change Email</h4>
+            <div class="form-group">
+                @Html.Password("oldPassword", "", new { placeholder = "Current Password", required = "required" })
+            </div>
+            <div class="form-group">
+                @Html.TextBox("newMail", "", new { placeholder = "New E-Mail", required = "required" })
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Change E-Mail" class="btn btn-info" />
+            </div>
+        }
+    </div>
+</div>
+
+@section Scripts{
+    <script src="~/custom/ProfileSettngs.js"></script>
+}

@@ -1,0 +1,21 @@
+﻿@model IEnumerable<LuckyTurtles.ASP.NET.MVC.VideoTutorials.Models.Video>
+@if (Model.Count() == 0)
+{
+    <h5>Search didn't return any results...</h5>
+}
+@foreach (var video in Model)
+{
+    <div class="col-md-3">
+        <div width="100%">
+            <div>
+                <a href="@Url.Action("WatchVideo", "Home", new {id = video.Id})"><img src="http://img.youtube.com/vi/@video.SourceLink/hqdefault.jpg" alt="Alternate Text" width="100%" /></a>
+            </div>
+            <div id="videoInfoWrapper">
+                <h4> <a href="@Url.Action("WatchVideo", "Home", new { id = video.Id })">@video.Title</a></h4>
+                <p>By @video.User.Username</p>
+                <p>Published on @String.Format("{0:d}", video.DatePublished)</p>
+                <p> @video.WatchCount views</p>
+            </div>
+        </div>
+    </div>
+}

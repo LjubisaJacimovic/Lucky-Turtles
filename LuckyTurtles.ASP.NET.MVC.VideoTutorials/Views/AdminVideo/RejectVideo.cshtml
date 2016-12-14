@@ -1,0 +1,98 @@
+﻿@model LuckyTurtles.ASP.NET.MVC.VideoTutorials.Models.Video
+
+@{
+    ViewBag.Title = "RejectVideo";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container">
+    <h2>RejectVideo</h2>
+
+    <div>
+        <h4>Videos</h4>
+        <hr />
+        <dl class="dl-horizontal">
+            <dt>
+                @Html.DisplayNameFor(model => model.Title)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Title)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.Description)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Description)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.SourceLink)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.SourceLink)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.DatePublished)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.DatePublished)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.Duration)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Duration)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.isApproved)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.isApproved)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.User.FirstName)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.User.FirstName)
+            </dd>
+            <dt>
+                Tags
+            </dt>
+            <dd>
+                <p>
+                    @foreach (var item in Model.Tags)
+                    {
+                        @item.TagName <span>,</span>
+
+                    }
+                </p>
+            </dd>
+            <dt>
+                Rejection Message
+            </dt>
+            <dd>
+                @using (Html.BeginForm())
+                {
+                    @Html.HiddenFor(x => x.Id)
+                    @Html.TextArea("message", new { @cols = "80", @rows = "4" })
+                     <input type="submit" value="Save Rejection" class="btn btn-default" />
+                }
+            </dd>
+        </dl>
+    </div>
+    <p>
+        @Html.ActionLink("Back to List", "ManageVideos")
+    </p>
+</div>

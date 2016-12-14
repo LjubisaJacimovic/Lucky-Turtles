@@ -1,0 +1,26 @@
+﻿body {
+}
+
+iframe {
+  width: 100%;
+}
+
+.center-container {
+  position: relative;
+  width: 80%;
+  height: 0;
+  padding-bottom: 51%;
+  margin:0 auto
+}
+
+.center-container iframe {
+  position: absolute;
+  width: 80%;
+  height: 80%;
+  left: 0; top: 0;
+}
+
+.info-container{
+    margin-top:-120px;
+    height:200px;
+}

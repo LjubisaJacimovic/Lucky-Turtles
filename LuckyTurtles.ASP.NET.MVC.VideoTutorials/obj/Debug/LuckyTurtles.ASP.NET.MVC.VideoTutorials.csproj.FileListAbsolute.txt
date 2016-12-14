@@ -1,0 +1,103 @@
+C:\Users\Ljubisha\Desktop\LuckyTurtles.ASP.NET.MVC.VideoTutorials\LuckyTurtles.ASP.NET.MVC.VideoTutorials\bin\LuckyTurtles.ASP.NET.MVC.VideoTutorials.dll.config
+C:\Users\Ljubisha\Desktop\LuckyTurtles.ASP.NET.MVC.VideoTutorials\LuckyTurtles.ASP.NET.MVC.VideoTutorials\bin\LuckyTurtles.ASP.NET.MVC.VideoTutorials.dll
+C:\Users\Ljubisha\Desktop\LuckyTurtles.ASP.NET.MVC.VideoTutorials\LuckyTurtles.ASP.NET.MVC.VideoTutorials\bin\LuckyTurtles.ASP.NET.MVC.VideoTutorials.pdb
+C:\Users\Ljubisha\Desktop\LuckyTurtles.ASP.NET.MVC.VideoTutorials\LuckyTurtles.ASP.NET.MVC.VideoTutorials\bin\System.Web.Helpers.dll
+C:\Users\Ljubisha\Desktop\LuckyTurtles.ASP.NET.MVC.VideoTutorials\LuckyTurtles.ASP.NET.MVC.VideoTutorials\bin\System.Web.Mvc.dll
+C:\Users\Ljubisha\Desktop\LuckyTurtles.ASP.NET.MVC.VideoTutorials\LuckyTurtles.ASP.NET.MVC.VideoTutorials\bin\System.Web.Razor.dll
+C:\Users\Ljubisha\Desktop\LuckyTurtles.ASP.NET.MVC.VideoTutorials\LuckyTurtles.ASP.NET.MVC.VideoTutorials\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Ljubisha\Desktop\LuckyTurtles.ASP.NET.MVC.VideoTutorials\LuckyTurtles.ASP.NET.MVC.VideoTutorials\bin\System.Web.Webpages.dll
+C:\Users\Ljubisha\Desktop\LuckyTurtles.ASP.NET.MVC.VideoTutorials\LuckyTurtles.ASP.NET.MVC.VideoTutorials\bin\System.Web.Webpages.Razor.dll
+C:\Users\Ljubisha\Desktop\LuckyTurtles.ASP.NET.MVC.VideoTutorials\LuckyTurtles.ASP.NET.MVC.VideoTutorials\bin\System.Web.Razor.xml
+C:\Users\Ljubisha\Desktop\LuckyTurtles.ASP.NET.MVC.VideoTutorials\LuckyTurtles.ASP.NET.MVC.VideoTutorials\bin\System.Web.Webpages.xml
+C:\Users\Ljubisha\Desktop\LuckyTurtles.ASP.NET.MVC.VideoTutorials\LuckyTurtles.ASP.NET.MVC.VideoTutorials\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Ljubisha\Desktop\LuckyTurtles.ASP.NET.MVC.VideoTutorials\LuckyTurtles.ASP.NET.MVC.VideoTutorials\bin\System.Web.Webpages.Razor.xml
+C:\Users\Ljubisha\Desktop\LuckyTurtles.ASP.NET.MVC.VideoTutorials\LuckyTurtles.ASP.NET.MVC.VideoTutorials\bin\System.Web.Helpers.xml
+C:\Users\Ljubisha\Desktop\LuckyTurtles.ASP.NET.MVC.VideoTutorials\LuckyTurtles.ASP.NET.MVC.VideoTutorials\bin\System.Web.Mvc.xml
+C:\Users\Ljubisha\Desktop\LuckyTurtles.ASP.NET.MVC.VideoTutorials\LuckyTurtles.ASP.NET.MVC.VideoTutorials\obj\Debug\LuckyTurtles.ASP.NET.MVC.VideoTutorials.csprojResolveAssemblyReference.cache
+C:\Users\Ljubisha\Desktop\LuckyTurtles.ASP.NET.MVC.VideoTutorials\LuckyTurtles.ASP.NET.MVC.VideoTutorials\obj\Debug\LuckyTurtles.ASP.NET.MVC.VideoTutorials.dll
+C:\Users\Ljubisha\Desktop\LuckyTurtles.ASP.NET.MVC.VideoTutorials\LuckyTurtles.ASP.NET.MVC.VideoTutorials\obj\Debug\LuckyTurtles.ASP.NET.MVC.VideoTutorials.pdb
+C:\Users\Ljubisha\Desktop\Team Project - Video Tutorials\LuckyTurtles.ASP.NET.MVC.VideoTutorials\LuckyTurtles.ASP.NET.MVC.VideoTutorials\bin\LuckyTurtles.ASP.NET.MVC.VideoTutorials.dll.config
+C:\Users\Ljubisha\Desktop\Team Project - Video Tutorials\LuckyTurtles.ASP.NET.MVC.VideoTutorials\LuckyTurtles.ASP.NET.MVC.VideoTutorials\bin\LuckyTurtles.ASP.NET.MVC.VideoTutorials.dll
+C:\Users\Ljubisha\Desktop\Team Project - Video Tutorials\LuckyTurtles.ASP.NET.MVC.VideoTutorials\LuckyTurtles.ASP.NET.MVC.VideoTutorials\bin\LuckyTurtles.ASP.NET.MVC.VideoTutorials.pdb
+C:\Users\Ljubisha\Desktop\Team Project - Video Tutorials\LuckyTurtles.ASP.NET.MVC.VideoTutorials\LuckyTurtles.ASP.NET.MVC.VideoTutorials\bin\System.Web.Helpers.dll
+C:\Users\Ljubisha\Desktop\Team Project - Video Tutorials\LuckyTurtles.ASP.NET.MVC.VideoTutorials\LuckyTurtles.ASP.NET.MVC.VideoTutorials\bin\System.Web.Mvc.dll
+C:\Users\Ljubisha\Desktop\Team Project - Video Tutorials\LuckyTurtles.ASP.NET.MVC.VideoTutorials\LuckyTurtles.ASP.NET.MVC.VideoTutorials\bin\System.Web.Razor.dll
+C:\Users\Ljubisha\Desktop\Team Project - Video Tutorials\LuckyTurtles.ASP.NET.MVC.VideoTutorials\LuckyTurtles.ASP.NET.MVC.VideoTutorials\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Ljubisha\Desktop\Team Project - Video Tutorials\LuckyTurtles.ASP.NET.MVC.VideoTutorials\LuckyTurtles.ASP.NET.MVC.VideoTutorials\bin\System.Web.Webpages.dll
+C:\Users\Ljubisha\Desktop\Team Project - Video Tutorials\LuckyTurtles.ASP.NET.MVC.VideoTutorials\LuckyTurtles.ASP.NET.MVC.VideoTutorials\bin\System.Web.Webpages.Razor.dll
+C:\Users\Ljubisha\Desktop\Team Project - Video Tutorials\LuckyTurtles.ASP.NET.MVC.VideoTutorials\LuckyTurtles.ASP.NET.MVC.VideoTutorials\bin\System.Web.Razor.xml
+C:\Users\Ljubisha\Desktop\Team Project - Video Tutorials\LuckyTurtles.ASP.NET.MVC.VideoTutorials\LuckyTurtles.ASP.NET.MVC.VideoTutorials\bin\System.Web.Webpages.xml
+C:\Users\Ljubisha\Desktop\Team Project - Video Tutorials\LuckyTurtles.ASP.NET.MVC.VideoTutorials\LuckyTurtles.ASP.NET.MVC.VideoTutorials\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Ljubisha\Desktop\Team Project - Video Tutorials\LuckyTurtles.ASP.NET.MVC.VideoTutorials\LuckyTurtles.ASP.NET.MVC.VideoTutorials\bin\System.Web.Webpages.Razor.xml
+C:\Users\Ljubisha\Desktop\Team Project - Video Tutorials\LuckyTurtles.ASP.NET.MVC.VideoTutorials\LuckyTurtles.ASP.NET.MVC.VideoTutorials\bin\System.Web.Helpers.xml
+C:\Users\Ljubisha\Desktop\Team Project - Video Tutorials\LuckyTurtles.ASP.NET.MVC.VideoTutorials\LuckyTurtles.ASP.NET.MVC.VideoTutorials\bin\System.Web.Mvc.xml
+C:\Users\Ljubisha\Desktop\Team Project - Video Tutorials\LuckyTurtles.ASP.NET.MVC.VideoTutorials\LuckyTurtles.ASP.NET.MVC.VideoTutorials\obj\Debug\LuckyTurtles.ASP.NET.MVC.VideoTutorials.dll
+C:\Users\Ljubisha\Desktop\Team Project - Video Tutorials\LuckyTurtles.ASP.NET.MVC.VideoTutorials\LuckyTurtles.ASP.NET.MVC.VideoTutorials\obj\Debug\LuckyTurtles.ASP.NET.MVC.VideoTutorials.pdb
+C:\Users\Ljubisha\Desktop\Team Project - Video Tutorials\LuckyTurtles.ASP.NET.MVC.VideoTutorials\LuckyTurtles.ASP.NET.MVC.VideoTutorials\bin\EntityFramework.dll
+C:\Users\Ljubisha\Desktop\Team Project - Video Tutorials\LuckyTurtles.ASP.NET.MVC.VideoTutorials\LuckyTurtles.ASP.NET.MVC.VideoTutorials\bin\EntityFramework.SqlServer.dll
+C:\Users\Ljubisha\Desktop\Team Project - Video Tutorials\LuckyTurtles.ASP.NET.MVC.VideoTutorials\LuckyTurtles.ASP.NET.MVC.VideoTutorials\bin\EntityFramework.xml
+C:\Users\Ljubisha\Desktop\Team Project - Video Tutorials\LuckyTurtles.ASP.NET.MVC.VideoTutorials\LuckyTurtles.ASP.NET.MVC.VideoTutorials\bin\EntityFramework.SqlServer.xml
+C:\Users\Ljubisha\Desktop\Team Project - Video Tutorials\LuckyTurtles.ASP.NET.MVC.VideoTutorials\LuckyTurtles.ASP.NET.MVC.VideoTutorials\obj\Debug\LuckyTurtles.ASP.NET.MVC.VideoTutorials.csprojResolveAssemblyReference.cache
+C:\Users\Ljubisha\Documents\Visual Studio 2013\Projects\LuckyTurtles.ASP.NET.MVC.VideoTutorials\Team Project\SEDC.LuckyTurtles.OLS\LuckyTurtles.ASP.NET.MVC.VideoTutorials\bin\LuckyTurtles.ASP.NET.MVC.VideoTutorials.dll.config
+C:\Users\Ljubisha\Documents\Visual Studio 2013\Projects\LuckyTurtles.ASP.NET.MVC.VideoTutorials\Team Project\SEDC.LuckyTurtles.OLS\LuckyTurtles.ASP.NET.MVC.VideoTutorials\bin\LuckyTurtles.ASP.NET.MVC.VideoTutorials.dll
+C:\Users\Ljubisha\Documents\Visual Studio 2013\Projects\LuckyTurtles.ASP.NET.MVC.VideoTutorials\Team Project\SEDC.LuckyTurtles.OLS\LuckyTurtles.ASP.NET.MVC.VideoTutorials\bin\LuckyTurtles.ASP.NET.MVC.VideoTutorials.pdb
+C:\Users\Ljubisha\Documents\Visual Studio 2013\Projects\LuckyTurtles.ASP.NET.MVC.VideoTutorials\Team Project\SEDC.LuckyTurtles.OLS\LuckyTurtles.ASP.NET.MVC.VideoTutorials\bin\EntityFramework.dll
+C:\Users\Ljubisha\Documents\Visual Studio 2013\Projects\LuckyTurtles.ASP.NET.MVC.VideoTutorials\Team Project\SEDC.LuckyTurtles.OLS\LuckyTurtles.ASP.NET.MVC.VideoTutorials\bin\EntityFramework.SqlServer.dll
+C:\Users\Ljubisha\Documents\Visual Studio 2013\Projects\LuckyTurtles.ASP.NET.MVC.VideoTutorials\Team Project\SEDC.LuckyTurtles.OLS\LuckyTurtles.ASP.NET.MVC.VideoTutorials\bin\System.Web.Helpers.dll
+C:\Users\Ljubisha\Documents\Visual Studio 2013\Projects\LuckyTurtles.ASP.NET.MVC.VideoTutorials\Team Project\SEDC.LuckyTurtles.OLS\LuckyTurtles.ASP.NET.MVC.VideoTutorials\bin\System.Web.Mvc.dll
+C:\Users\Ljubisha\Documents\Visual Studio 2013\Projects\LuckyTurtles.ASP.NET.MVC.VideoTutorials\Team Project\SEDC.LuckyTurtles.OLS\LuckyTurtles.ASP.NET.MVC.VideoTutorials\bin\System.Web.Razor.dll
+C:\Users\Ljubisha\Documents\Visual Studio 2013\Projects\LuckyTurtles.ASP.NET.MVC.VideoTutorials\Team Project\SEDC.LuckyTurtles.OLS\LuckyTurtles.ASP.NET.MVC.VideoTutorials\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Ljubisha\Documents\Visual Studio 2013\Projects\LuckyTurtles.ASP.NET.MVC.VideoTutorials\Team Project\SEDC.LuckyTurtles.OLS\LuckyTurtles.ASP.NET.MVC.VideoTutorials\bin\System.Web.Webpages.dll
+C:\Users\Ljubisha\Documents\Visual Studio 2013\Projects\LuckyTurtles.ASP.NET.MVC.VideoTutorials\Team Project\SEDC.LuckyTurtles.OLS\LuckyTurtles.ASP.NET.MVC.VideoTutorials\bin\System.Web.Webpages.Razor.dll
+C:\Users\Ljubisha\Documents\Visual Studio 2013\Projects\LuckyTurtles.ASP.NET.MVC.VideoTutorials\Team Project\SEDC.LuckyTurtles.OLS\LuckyTurtles.ASP.NET.MVC.VideoTutorials\bin\EntityFramework.xml
+C:\Users\Ljubisha\Documents\Visual Studio 2013\Projects\LuckyTurtles.ASP.NET.MVC.VideoTutorials\Team Project\SEDC.LuckyTurtles.OLS\LuckyTurtles.ASP.NET.MVC.VideoTutorials\bin\EntityFramework.SqlServer.xml
+C:\Users\Ljubisha\Documents\Visual Studio 2013\Projects\LuckyTurtles.ASP.NET.MVC.VideoTutorials\Team Project\SEDC.LuckyTurtles.OLS\LuckyTurtles.ASP.NET.MVC.VideoTutorials\bin\System.Web.Razor.xml
+C:\Users\Ljubisha\Documents\Visual Studio 2013\Projects\LuckyTurtles.ASP.NET.MVC.VideoTutorials\Team Project\SEDC.LuckyTurtles.OLS\LuckyTurtles.ASP.NET.MVC.VideoTutorials\bin\System.Web.Webpages.xml
+C:\Users\Ljubisha\Documents\Visual Studio 2013\Projects\LuckyTurtles.ASP.NET.MVC.VideoTutorials\Team Project\SEDC.LuckyTurtles.OLS\LuckyTurtles.ASP.NET.MVC.VideoTutorials\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Ljubisha\Documents\Visual Studio 2013\Projects\LuckyTurtles.ASP.NET.MVC.VideoTutorials\Team Project\SEDC.LuckyTurtles.OLS\LuckyTurtles.ASP.NET.MVC.VideoTutorials\bin\System.Web.Webpages.Razor.xml
+C:\Users\Ljubisha\Documents\Visual Studio 2013\Projects\LuckyTurtles.ASP.NET.MVC.VideoTutorials\Team Project\SEDC.LuckyTurtles.OLS\LuckyTurtles.ASP.NET.MVC.VideoTutorials\bin\System.Web.Helpers.xml
+C:\Users\Ljubisha\Documents\Visual Studio 2013\Projects\LuckyTurtles.ASP.NET.MVC.VideoTutorials\Team Project\SEDC.LuckyTurtles.OLS\LuckyTurtles.ASP.NET.MVC.VideoTutorials\bin\System.Web.Mvc.xml
+C:\Users\Ljubisha\Documents\Visual Studio 2013\Projects\LuckyTurtles.ASP.NET.MVC.VideoTutorials\Team Project\SEDC.LuckyTurtles.OLS\LuckyTurtles.ASP.NET.MVC.VideoTutorials\obj\Debug\LuckyTurtles.ASP.NET.MVC.VideoTutorials.dll
+C:\Users\Ljubisha\Documents\Visual Studio 2013\Projects\LuckyTurtles.ASP.NET.MVC.VideoTutorials\Team Project\SEDC.LuckyTurtles.OLS\LuckyTurtles.ASP.NET.MVC.VideoTutorials\obj\Debug\LuckyTurtles.ASP.NET.MVC.VideoTutorials.pdb
+C:\Users\Toni\Documents\Visual Studio 2013\Projects\Team Project\SEDC.LuckyTurtles.OLS\LuckyTurtles.ASP.NET.MVC.VideoTutorials\bin\LuckyTurtles.ASP.NET.MVC.VideoTutorials.dll.config
+C:\Users\Toni\Documents\Visual Studio 2013\Projects\Team Project\SEDC.LuckyTurtles.OLS\LuckyTurtles.ASP.NET.MVC.VideoTutorials\bin\LuckyTurtles.ASP.NET.MVC.VideoTutorials.dll
+C:\Users\Toni\Documents\Visual Studio 2013\Projects\Team Project\SEDC.LuckyTurtles.OLS\LuckyTurtles.ASP.NET.MVC.VideoTutorials\bin\LuckyTurtles.ASP.NET.MVC.VideoTutorials.pdb
+C:\Users\Toni\Documents\Visual Studio 2013\Projects\Team Project\SEDC.LuckyTurtles.OLS\LuckyTurtles.ASP.NET.MVC.VideoTutorials\bin\EntityFramework.dll
+C:\Users\Toni\Documents\Visual Studio 2013\Projects\Team Project\SEDC.LuckyTurtles.OLS\LuckyTurtles.ASP.NET.MVC.VideoTutorials\bin\EntityFramework.SqlServer.dll
+C:\Users\Toni\Documents\Visual Studio 2013\Projects\Team Project\SEDC.LuckyTurtles.OLS\LuckyTurtles.ASP.NET.MVC.VideoTutorials\bin\System.Web.Helpers.dll
+C:\Users\Toni\Documents\Visual Studio 2013\Projects\Team Project\SEDC.LuckyTurtles.OLS\LuckyTurtles.ASP.NET.MVC.VideoTutorials\bin\System.Web.Razor.dll
+C:\Users\Toni\Documents\Visual Studio 2013\Projects\Team Project\SEDC.LuckyTurtles.OLS\LuckyTurtles.ASP.NET.MVC.VideoTutorials\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Toni\Documents\Visual Studio 2013\Projects\Team Project\SEDC.LuckyTurtles.OLS\LuckyTurtles.ASP.NET.MVC.VideoTutorials\bin\System.Web.Webpages.dll
+C:\Users\Toni\Documents\Visual Studio 2013\Projects\Team Project\SEDC.LuckyTurtles.OLS\LuckyTurtles.ASP.NET.MVC.VideoTutorials\bin\System.Web.Webpages.Razor.dll
+C:\Users\Toni\Documents\Visual Studio 2013\Projects\Team Project\SEDC.LuckyTurtles.OLS\LuckyTurtles.ASP.NET.MVC.VideoTutorials\bin\EntityFramework.xml
+C:\Users\Toni\Documents\Visual Studio 2013\Projects\Team Project\SEDC.LuckyTurtles.OLS\LuckyTurtles.ASP.NET.MVC.VideoTutorials\bin\EntityFramework.SqlServer.xml
+C:\Users\Toni\Documents\Visual Studio 2013\Projects\Team Project\SEDC.LuckyTurtles.OLS\LuckyTurtles.ASP.NET.MVC.VideoTutorials\bin\System.Web.Razor.xml
+C:\Users\Toni\Documents\Visual Studio 2013\Projects\Team Project\SEDC.LuckyTurtles.OLS\LuckyTurtles.ASP.NET.MVC.VideoTutorials\bin\System.Web.Webpages.xml
+C:\Users\Toni\Documents\Visual Studio 2013\Projects\Team Project\SEDC.LuckyTurtles.OLS\LuckyTurtles.ASP.NET.MVC.VideoTutorials\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Toni\Documents\Visual Studio 2013\Projects\Team Project\SEDC.LuckyTurtles.OLS\LuckyTurtles.ASP.NET.MVC.VideoTutorials\bin\System.Web.Webpages.Razor.xml
+C:\Users\Toni\Documents\Visual Studio 2013\Projects\Team Project\SEDC.LuckyTurtles.OLS\LuckyTurtles.ASP.NET.MVC.VideoTutorials\bin\System.Web.Helpers.xml
+C:\Users\Toni\Documents\Visual Studio 2013\Projects\Team Project\SEDC.LuckyTurtles.OLS\LuckyTurtles.ASP.NET.MVC.VideoTutorials\obj\Debug\LuckyTurtles.ASP.NET.MVC.VideoTutorials.dll
+C:\Users\Toni\Documents\Visual Studio 2013\Projects\Team Project\SEDC.LuckyTurtles.OLS\LuckyTurtles.ASP.NET.MVC.VideoTutorials\obj\Debug\LuckyTurtles.ASP.NET.MVC.VideoTutorials.pdb
+C:\Users\Toni\Documents\Visual Studio 2013\Projects\Team Project\SEDC.LuckyTurtles.OLS\LuckyTurtles.ASP.NET.MVC.VideoTutorials\obj\Debug\LuckyTurtles.ASP.NET.MVC.VideoTutorials.csprojResolveAssemblyReference.cache
+C:\Users\Ljubisha\Documents\Visual Studio 2013\Projects\LuckyTurtles.ASP.NET.MVC.VideoTutorials\Team Project\SEDC.LuckyTurtles.OLS\LuckyTurtles.ASP.NET.MVC.VideoTutorials\obj\Debug\LuckyTurtles.ASP.NET.MVC.VideoTutorials.csprojResolveAssemblyReference.cache
+F:\A - New folder  od destop\LuckyTurtles.ASP.NET.MVC.VideoTutorials\Team Project\SEDC.LuckyTurtles.OLS\LuckyTurtles.ASP.NET.MVC.VideoTutorials\bin\LuckyTurtles.ASP.NET.MVC.VideoTutorials.dll.config
+F:\A - New folder  od destop\LuckyTurtles.ASP.NET.MVC.VideoTutorials\Team Project\SEDC.LuckyTurtles.OLS\LuckyTurtles.ASP.NET.MVC.VideoTutorials\bin\LuckyTurtles.ASP.NET.MVC.VideoTutorials.dll
+F:\A - New folder  od destop\LuckyTurtles.ASP.NET.MVC.VideoTutorials\Team Project\SEDC.LuckyTurtles.OLS\LuckyTurtles.ASP.NET.MVC.VideoTutorials\bin\LuckyTurtles.ASP.NET.MVC.VideoTutorials.pdb
+F:\A - New folder  od destop\LuckyTurtles.ASP.NET.MVC.VideoTutorials\Team Project\SEDC.LuckyTurtles.OLS\LuckyTurtles.ASP.NET.MVC.VideoTutorials\bin\EntityFramework.dll
+F:\A - New folder  od destop\LuckyTurtles.ASP.NET.MVC.VideoTutorials\Team Project\SEDC.LuckyTurtles.OLS\LuckyTurtles.ASP.NET.MVC.VideoTutorials\bin\EntityFramework.SqlServer.dll
+F:\A - New folder  od destop\LuckyTurtles.ASP.NET.MVC.VideoTutorials\Team Project\SEDC.LuckyTurtles.OLS\LuckyTurtles.ASP.NET.MVC.VideoTutorials\bin\System.Web.Helpers.dll
+F:\A - New folder  od destop\LuckyTurtles.ASP.NET.MVC.VideoTutorials\Team Project\SEDC.LuckyTurtles.OLS\LuckyTurtles.ASP.NET.MVC.VideoTutorials\bin\System.Web.Mvc.dll
+F:\A - New folder  od destop\LuckyTurtles.ASP.NET.MVC.VideoTutorials\Team Project\SEDC.LuckyTurtles.OLS\LuckyTurtles.ASP.NET.MVC.VideoTutorials\bin\System.Web.Razor.dll
+F:\A - New folder  od destop\LuckyTurtles.ASP.NET.MVC.VideoTutorials\Team Project\SEDC.LuckyTurtles.OLS\LuckyTurtles.ASP.NET.MVC.VideoTutorials\bin\System.Web.Webpages.Deployment.dll
+F:\A - New folder  od destop\LuckyTurtles.ASP.NET.MVC.VideoTutorials\Team Project\SEDC.LuckyTurtles.OLS\LuckyTurtles.ASP.NET.MVC.VideoTutorials\bin\System.Web.Webpages.dll
+F:\A - New folder  od destop\LuckyTurtles.ASP.NET.MVC.VideoTutorials\Team Project\SEDC.LuckyTurtles.OLS\LuckyTurtles.ASP.NET.MVC.VideoTutorials\bin\System.Web.Webpages.Razor.dll
+F:\A - New folder  od destop\LuckyTurtles.ASP.NET.MVC.VideoTutorials\Team Project\SEDC.LuckyTurtles.OLS\LuckyTurtles.ASP.NET.MVC.VideoTutorials\bin\EntityFramework.xml
+F:\A - New folder  od destop\LuckyTurtles.ASP.NET.MVC.VideoTutorials\Team Project\SEDC.LuckyTurtles.OLS\LuckyTurtles.ASP.NET.MVC.VideoTutorials\bin\EntityFramework.SqlServer.xml
+F:\A - New folder  od destop\LuckyTurtles.ASP.NET.MVC.VideoTutorials\Team Project\SEDC.LuckyTurtles.OLS\LuckyTurtles.ASP.NET.MVC.VideoTutorials\bin\System.Web.Razor.xml
+F:\A - New folder  od destop\LuckyTurtles.ASP.NET.MVC.VideoTutorials\Team Project\SEDC.LuckyTurtles.OLS\LuckyTurtles.ASP.NET.MVC.VideoTutorials\bin\System.Web.Webpages.xml
+F:\A - New folder  od destop\LuckyTurtles.ASP.NET.MVC.VideoTutorials\Team Project\SEDC.LuckyTurtles.OLS\LuckyTurtles.ASP.NET.MVC.VideoTutorials\bin\System.Web.Webpages.Deployment.xml
+F:\A - New folder  od destop\LuckyTurtles.ASP.NET.MVC.VideoTutorials\Team Project\SEDC.LuckyTurtles.OLS\LuckyTurtles.ASP.NET.MVC.VideoTutorials\bin\System.Web.Webpages.Razor.xml
+F:\A - New folder  od destop\LuckyTurtles.ASP.NET.MVC.VideoTutorials\Team Project\SEDC.LuckyTurtles.OLS\LuckyTurtles.ASP.NET.MVC.VideoTutorials\bin\System.Web.Helpers.xml
+F:\A - New folder  od destop\LuckyTurtles.ASP.NET.MVC.VideoTutorials\Team Project\SEDC.LuckyTurtles.OLS\LuckyTurtles.ASP.NET.MVC.VideoTutorials\bin\System.Web.Mvc.xml
+F:\A - New folder  od destop\LuckyTurtles.ASP.NET.MVC.VideoTutorials\Team Project\SEDC.LuckyTurtles.OLS\LuckyTurtles.ASP.NET.MVC.VideoTutorials\obj\Debug\LuckyTurtles.ASP.NET.MVC.VideoTutorials.dll
+F:\A - New folder  od destop\LuckyTurtles.ASP.NET.MVC.VideoTutorials\Team Project\SEDC.LuckyTurtles.OLS\LuckyTurtles.ASP.NET.MVC.VideoTutorials\obj\Debug\LuckyTurtles.ASP.NET.MVC.VideoTutorials.pdb

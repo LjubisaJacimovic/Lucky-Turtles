@@ -1,0 +1,17 @@
+﻿@model LuckyTurtles.ASP.NET.MVC.VideoTutorials.Models.Video
+@{
+    ViewBag.Title = "RejectedDetails";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container">
+    <h2>Details about the rejected video</h2>
+    @Html.DisplayFor(x => x.Title)
+
+    <p>
+        @Html.DisplayFor(x => x.RejectMessage.Message)
+    </p>
+    <p>
+        @Html.ActionLink("Back to List", "ManageVideos")
+    </p>
+</div>

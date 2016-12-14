@@ -1,0 +1,143 @@
+﻿@model IEnumerable<LuckyTurtles.ASP.NET.MVC.VideoTutorials.Models.Video>
+
+@{
+    ViewBag.Title = "ManageVideos";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<div class="container">
+    <h2>Admin manage video panel</h2>
+    <h3>@ViewBag.PageTitle</h3>
+    @Html.ActionLink("All", "ManageVideos", new { }, new { @class = "btn btn-info" })
+    @Html.ActionLink("Approved", "ApprovedVideos", new { }, new { @class = "btn btn-info" })
+    @Html.ActionLink("Pending Approval", "PendingVideos", new { }, new { @class = "btn btn-info" })
+    @Html.ActionLink("Rejected", "RejectedVideos", new { }, new { @class = "btn btn-info" })
+    <table class="table">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Title)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Description)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.SourceLink)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DatePublished)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Duration)
+            </th>
+            <th>
+                Added By
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Tags)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Rejected)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.isApproved)
+            </th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Title)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Description)
+                </td>
+                <td>
+                    <a href="https://www.youtube.com/watch?v=@Html.DisplayFor(modelItem => item.SourceLink)">@Html.DisplayFor(modelItem => item.Title)</a>
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.DatePublished)
+                </td>
+                <td>
+                    @{
+                        TimeSpan t = TimeSpan.FromSeconds(Convert.ToInt32(item.Duration));
+                        string answer = string.Format("{0:D2}h:{1:D2}m:{2:D2}s",
+                                        t.Hours,
+                                        t.Minutes,
+                                        t.Seconds,
+                                        t.Milliseconds);
+                    }
+                    @answer
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.User.Username)
+                </td>
+                <td>
+                    <ul style="list-style-type:none;">
+                        @foreach (var tag in item.Tags)
+                        {
+                            <li>@tag.TagName</li>
+                        }
+                    </ul>
+                </td>
+                <td>
+                    @if (item.Rejected != null)
+                    {
+                        @Html.ActionLink("Rejected", "RejectedDetails", new { id = item.Id }, new { style = "color:red" })
+                    }
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.isApproved)
+                </td>
+                <td>
+                    @if (item.isApproved == false)
+                    {
+                        @Html.ActionLink("Approve", "ApproveVideo", new { id = item.Id }, new { @class = "btn btn-info", style = "margin-top:5px" })
+                    }
+                    else
+                    {
+                        @Html.ActionLink("Disapprove", "DisapproveVideo", new { id = item.Id }, new { @class = "btn btn-info", style = "margin-top:5px" })
+                    }
+                    @if (item.Rejected == null)
+                    {
+                        @Html.ActionLink("Reject Video", "RejectVideo", new { id = item.Id }, new { @class = "btn btn-info", style = "margin-top:5px" })
+                    }
+
+                </td>
+            </tr>
+        }
+
+    </table>
+</div>
+
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title">New message</h4>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="form-group">
+                        <label for="recipient-name" class="control-label">Recipient:</label>
+                        <input type="text" class="form-control" id="recipient-name">
+                    </div>
+                    <div class="form-group">
+                        <label for="message-text" class="control-label">Message:</label>
+                        <textarea class="form-control" id="message-text"></textarea>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Send message</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+@section Scripts{
+}

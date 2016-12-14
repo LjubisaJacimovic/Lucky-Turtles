@@ -1,0 +1,59 @@
+﻿.FormSection{
+	background-color:white;
+	height:150px;
+	width:35%;
+    margin:0 auto;
+    margin-top:100px;
+    text-align:center;
+}
+
+.formInput{
+    width:100%;
+}
+
+.AddVideoBtn{
+    width:100%;
+    height:50px;
+    font-size:20px;
+}
+
+.addedTag{
+    background-color:#5bc0de;
+    width:18.5%;
+    height:50px;
+    color:white;
+    margin-left:0.7%;
+    margin-right:0.7%;
+    margin-bottom:10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float:left;
+}
+
+.ErrMsg{
+    color:red;
+    display:none;
+}
+
+.tagRemoveBtn{
+     margin-left:10px;
+}
+
+.addedTag:hover{
+    cursor:pointer;
+}
+
+.hiddenInput{
+    display:none;
+}
+
+.duration{
+    display:inline-block;
+    width:30%;
+}
+
+.label{
+    color:grey;
+    font-size:13px;
+}

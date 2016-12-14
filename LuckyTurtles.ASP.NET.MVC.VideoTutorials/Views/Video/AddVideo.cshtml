@@ -1,0 +1,84 @@
+﻿@model LuckyTurtles.ASP.NET.MVC.VideoTutorials.Models.ViewModels.VideoAdd
+
+@{
+    ViewBag.Title = "AddVideo";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@section CssScripts{
+    <link href="~/Scripts/jquery-ui.min.css" rel="stylesheet" />
+    <link href="~/custom/OverrideJQueryUi.css" rel="stylesheet" />
+    <link href="~/custom/AddVideo.css" rel="stylesheet" />
+}
+
+<div class="FormSection">
+
+
+    @using (Html.BeginForm())
+    {
+        <h2>Add Video</h2>
+
+        @Html.ValidationSummary(true)
+        <div class="form-group">
+            @Html.LabelFor(model => model.Title, new { @class = "label" })
+            @Html.TextBoxFor(model => model.Title, new { @class = "form-control formInput", placeholder = "Video Title" })
+            @Html.ValidationMessageFor(model => model.Title)
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Description, new { @class = "label" })
+            @Html.TextBoxFor(model => model.Description, new { @class = "form-control formInput", placeholder = "Description" })
+            @Html.ValidationMessageFor(model => model.Description)
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.SourceLink, new { @class = "label" })
+            @Html.TextBoxFor(model => model.SourceLink, new { @class = "form-control formInput", placeholder = "Source Link" })
+            @Html.ValidationMessageFor(model => model.SourceLink)
+        </div>
+        @Html.Label("Duration", new { @class = "label" })
+        @Html.ValidationMessageFor(model => model.Hours)
+        @Html.ValidationMessageFor(model => model.Minutes)
+        @Html.ValidationMessageFor(model => model.Seconds)
+        <div class="form-group">
+            <div class="form-group duration">
+                @Html.Label("Hours", new { @class = "label" })
+                @Html.TextBoxFor(model => model.Hours, new { @class = "form-control formInput", placeholder = "Hours", @Value = "0" })
+            </div>
+            <div class="form-group duration">
+                @Html.Label("Minutes", new { @class = "label" })
+                @Html.TextBoxFor(model => model.Minutes, new { @class = "form-control formInput", placeholder = "Minutes", @Value = "0" })
+            </div>
+            <div class="form-group duration">
+                @Html.Label("Seconds", new { @class = "label" })
+                @Html.TextBoxFor(model => model.Seconds, new { @class = "form-control formInput", placeholder = "Seconds", @Value = "0" })
+            </div>
+        </div>
+
+        @Html.Label("Tags", new { @class = "label" })
+        <div class="form-group">
+            <div class="input-group">
+                <input type="text" class="form-control" placeholder="Search Tag" id="Tag">
+                <span class="input-group-btn" id="search">
+                    <button class="btn btn-default btn-info" id="AddTag" type="button">Add Tag</button>
+                </span>
+            </div>
+            @Html.ValidationMessageFor(model => model.Tag)
+        </div>
+
+        <p class="ErrMsg"></p>
+        <div class="TagContainer"></div>
+        <div class="form-group">
+            <input type="submit" value="Add Video" class="btn btn-info AddVideoBtn " />
+        </div>
+    }
+
+</div>
+
+
+
+@section Scripts{
+    <script src="~/Scripts/jquery.validate.min.js"></script>
+    <script src="~/Scripts/jquery-ui.js"></script>
+    <script src="~/custom/AddVideo.js"></script>
+}

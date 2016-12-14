@@ -1,0 +1,70 @@
+﻿@model IEnumerable<LuckyTurtles.ASP.NET.MVC.VideoTutorials.Models.Video>
+@{
+    ViewBag.Title = "SEDC";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@section CssScripts{
+    <link href="~/Content/bootstrap-select.min.css" rel="stylesheet" />
+}
+
+<div class="container mainContainer">
+    <div class="jumbotron">
+        <img src="~/images/logo2.jpg" style="margin-top:-25px" />
+    </div>
+</div><!--End of container for Jumbotron-->
+<nav class="navbar navbar-default" id="controlNavbar">
+    <div class="container">
+        @using (Html.BeginForm("Foo", "Bar", FormMethod.Post, new { @class = "navbar-form row" }))
+        {
+            @Html.ValidationSummary(true)
+            <div class="form-group col-md-2">
+                <select class="selectpicker" data-size="5" data-live-search="true">
+                    <option>All Tags</option>
+                    @foreach (var tag in ViewBag.TagsList)
+                    {
+                        <option>@tag.TagName</option>
+                    }
+                </select>
+            </div>
+            <div class="form-group col-md-6">
+                <div class="input-group" style="margin-left:55px; width:100%">
+                    <input type="text" class="form-control searchInput" placeholder="Search for...">
+                    <span class="input-group-btn" id="search2">
+                        <button class="btn btn-default btn-info" type="button"><span class="glyphicon glyphicon-search"></span></button>
+                    </span>
+                </div>
+            </div><!--End of search input field-->
+            <div class="btn-group col-md-2">
+                <button class="btn btn-default btn-small dropdown-toggle" type="button" data-toggle="dropdown" aria-expanded="false">
+                    Duration (<span id="selectDuration">All</span>)  <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu" role="menu" id="durationSelect">
+                    <li><a href="#"><span>All</span></a></li>
+                    <li class="divider"></li>
+                    <li><a href="#">Small (<span>0-10</span> min)</a></li>
+                    <li><a href="#">Medium (<span>0-30</span> min)</a></li>
+                    <li><a href="#">Large (<span>30+</span> min)</a></li>
+                </ul>
+            </div><!--End of Duration Button-->
+            <div class="btn-group col-md-2">
+                <button class="btn btn-default btn-small dropdown-toggle" type="button" data-toggle="dropdown" aria-expanded="false">
+                    Sort By (<span id="sortBy">Newest</span>)  <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu" role="menu" id="sortSelect">
+                    <li><a href="#">Newest</a></li>
+                    <li><a href="#">Oldest</a></li>
+                </ul>
+            </div><!--End of Sort by Button-->
+
+        }
+        <form class="navbar-form"></form>
+    </div><!--End of container for control navbar-->
+</nav><!--End of control navbar-->
+<div class="container videoContainer">
+     @Html.Partial("Partials/VideosIndex", Model)
+</div>
+
+@section Scripts{
+    <script src="~/Scripts/bootstrap-select.min.js"></script>
+}

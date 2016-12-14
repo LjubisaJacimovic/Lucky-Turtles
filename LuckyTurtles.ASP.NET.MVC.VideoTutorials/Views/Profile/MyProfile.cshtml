@@ -1,0 +1,48 @@
+﻿@using LuckyTurtles.ASP.NET.MVC.VideoTutorials.Models;
+@model IEnumerable<LuckyTurtles.ASP.NET.MVC.VideoTutorials.Models.Video>
+@{
+    ViewBag.Title = "MyProfile";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    var user = (User)Session["User"];
+}
+
+<div class="container">
+    <h2>@user.Username</h2>
+    @Html.ActionLink("Uploaded Videos", "MyProfile", new { }, new { @class = "btn btn-info" })
+    @Html.ActionLink("Watched", "HistoryVideos", new { }, new { @class = "btn btn-info" })
+    @Html.ActionLink("Rejected", "RejectedVideos", new { }, new { @class = "btn btn-info" })
+    <h3>@ViewBag.VideoType</h3>
+    @if (Model.Count() == 0)
+    {
+        <h5>There are no videos..</h5>
+    }
+    @foreach (var video in Model)
+    {
+        <div class="row" style="margin-top:30px">
+            <div class="col-md-2">
+                <a href="@Url.Action("WatchVideo", "Home", new {id = video.Id})"><img src="http://img.youtube.com/vi/@video.SourceLink/hqdefault.jpg" alt="Alternate Text" width="100%" /></a>
+            </div>
+            <div id="videoInfoWrapper" class="col-md-4">
+                <div class="col-md-6">
+                    <h4>@video.Title</h4>
+                    <p>By @video.User.Username</p>
+                    <p>Published on @String.Format("{0:d}", video.DatePublished)</p>
+                    <p>@video.WatchCount views</p>
+                </div>
+                <div class="col-md-6">
+                    @if (video.Rejected != null)
+                    {
+                        <p style="display:inline-block; margin-top:10px"> Reason for being rejected: @video.RejectMessage.Message</p>
+                    }
+                </div>
+            </div>
+            <div class="col-md-5" style="text-align:right">
+                @if (video.UserId == user.Id)
+                {
+                    @Html.ActionLink("Delete", "DeleteVideo", new { id = video.Id }, new { @class = "btn btn-info" })
+                }
+            </div>
+        </div>
+        <hr />
+    }
+</div>

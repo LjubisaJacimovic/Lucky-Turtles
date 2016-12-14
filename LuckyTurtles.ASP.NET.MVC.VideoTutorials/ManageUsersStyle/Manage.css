@@ -1,0 +1,36 @@
+﻿body {
+  
+}
+
+.table {
+    width: 1200px;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    background-color: white;
+    box-shadow: 3px 3px 3px #808080;
+}
+
+.Admin {
+    width: 550px;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    background-color: white;
+    box-shadow: 5px 5px 5px #808080;
+}
+
+h4 {
+    margin-left: 15px;
+}
+
+.button {
+    margin-left: 15px;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,49 @@
+﻿@model LuckyTurtles.ASP.NET.MVC.VideoTutorials.Models.ViewModels.UserEdit
+
+@{
+    ViewBag.Title = "EditUsers";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="Admin">
+    <div style="margin-left:50px;">
+        @using (Html.BeginForm())
+        {
+            @Html.AntiForgeryToken()
+
+            <div class="form-horizontal">
+                <h4>Editing user: @Model.Username</h4>
+                <hr />
+                @Html.ValidationSummary(true)
+                @Html.HiddenFor(model => model.Id)
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.isApproved, new { @class = "control-label col-md-2" })
+                    <div class="col-md-10">
+                        @Html.EditorFor(model => model.isApproved)
+                        @Html.ValidationMessageFor(model => model.isApproved)
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.isAdmin, new { @class = "control-label col-md-2" })
+                    <div class="col-md-10">
+                        @Html.EditorFor(model => model.isAdmin)
+                        @Html.ValidationMessageFor(model => model.isAdmin)
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div class="col-md-offset-2 col-md-10">
+                        <input type="submit" value="Save" class="btn btn-info" />
+                    </div>
+                </div>
+            </div>
+        }
+
+        <div>
+            @Html.ActionLink("Back to List", "ManageUsers")
+        </div>
+
+    </div>
+</div>
